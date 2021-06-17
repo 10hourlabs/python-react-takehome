@@ -14,12 +14,12 @@ Create a Python/Flask app (api only) that allows customers to create service req
 2. Customers are identified only by their email addresses 
 3. All services are predefined (pre-seeded in the DB) and customers can only choose from a dropdown
 4. Work Orders cannot be scheduled in the past only in the future
-5. All available time slots should be used. For example, if a work order is deleted, and a new work order is created. The newly available slots should be used for newly created requests
+5. All available time slots should be used. For example, if a service request is deleted, and a new one is created. The available slots should be used for the newly created requests
 6. Durations should be in minutes. Example 25.2 would mean 25 minutes 2 seconds but should be presented to users after a search in a friendly format. For example, after a successful search, I wouldn't show 65.40 to a user rather 1hr 5min would be more appropriate. Please feel free to spell our the hours and minutes if you so desire. 
 7. Work orders should not be created for the following 
-    -> Any date that is a holiday 
-    -> Sundays 
-    -> Anytime before 9 am and after 5 pm Monday - Saturday
+    - Any date that is a holiday 
+    - Sundays 
+    - Anytime before 9 am and after 5 pm Monday - Saturday
 
 
 ### Customer Workflow (Create Service Request)
